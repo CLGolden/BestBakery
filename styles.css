@@ -233,8 +233,6 @@
 
   #services-1957 .cs-link {
     text-decoration: none;
-    width: 100%;
-    height: 100%;
     /* 125px - 236px */
     /* padding goes on the link, not the cs-item as is normal. We do this because we want the whole card to be hoverable. So we add the padding to the link tag to create the space inside the card. By adding the space inside the cs-link tag we can make the whole card hoverable since the padding is now contributing to the height and width of the link */
     padding: 1rem;
@@ -341,7 +339,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbs-1883 {
-    width: 100%;
+    /* width: 100%; */
     padding: var(--sectionPadding);
     background-color: #faf6f2;
     display: flex;
@@ -452,7 +450,7 @@
   }
 
   #sbs-1883 .cs-info {
-    width: 50%;
+    /* width: 50%; */
     max-width: 19.0625rem;
     padding: 6.25em 2.5em;
     background-color: var(--primary);
@@ -826,6 +824,7 @@
 @media only screen and (min-width: 48rem) {
   #contact-1750 {
     /* using flex: 1 on both group elements to ensure they're both the same width */
+    color: var(--bodyTextColor);
   }
 
   #contact-1750 .cs-container {
@@ -845,7 +844,7 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #contact-1750 .cs-container {
-    width: 65%;
+    /* width: 65%; */
     max-width: 64rem;
     margin: 0 auto 0 0;
     padding: 2.5rem 1.5rem;
