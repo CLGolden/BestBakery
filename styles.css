@@ -62,7 +62,7 @@
   }
 
   #hero-1957 .cs-button-solid {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
@@ -74,6 +74,7 @@
     display: inline-block;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
   }
 
   #hero-1957 .cs-button-solid:before {
@@ -213,6 +214,7 @@
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
     padding: 0;
+    padding-top: 50%;
     /* clips background image corners */
     overflow: hidden;
     box-shadow: 0px 12px 80px 0px rgba(26, 26, 26, 0.08);

@@ -1,5 +1,4 @@
 :root {
-    /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
     --primary: #c78126;
     --primaryLight: #c09f74;
     --secondary: #D49E8D;
@@ -59,4 +58,15 @@ body {
     max-width: 40.625rem;
     margin: 0;
     color: var(--bodyTextColor);
+}
+
+.returnbutton {
+    position: fixed;
+    display: block;
+    z-index: 10;
+    padding: 1rem 2rem;
+    background-color: var(--primary);
+    color: var(--bodyTextColorWhite);
+    right: 2%;
+    text-decoration: none;
 }
